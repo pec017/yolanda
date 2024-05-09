@@ -1,5 +1,5 @@
 # [Choice] Ubuntu version (use jammy on local arm64/Apple Silicon): jammy, focal
-FROM mcr.microsoft.com/devcontainers/cpp:1.0.7-ubuntu-22.04
+FROM mcr.microsoft.com/devcontainers/cpp:1.0.7-ubuntu-20.04
 
 LABEL dev.containers.features="common"
 
