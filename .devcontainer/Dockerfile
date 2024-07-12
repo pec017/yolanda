@@ -25,8 +25,8 @@
 # # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
-RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get install cmake g++ make
+# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+#     && apt-get install cmake g++ make
 
 FROM ubuntu:16.04
 # USER root
